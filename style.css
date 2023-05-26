@@ -47,3 +47,12 @@ main {
   justify-content: space-between;
   flex-direction: column;
 }
+#submit-btn:disabled {
+  opacity: 0,5;
+}
+#submit-btn:enabled {
+  opacity: 0,8;
+}
+#submit-btn:enabled:hover {
+  opacity: 1;
+}
