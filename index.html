@@ -5,23 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>trybewarts</title>
 </head>
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-     <div>
-       <input id="email" type="email" name="email" placeholder="Email">
-     </div>
-     <div>
-       <input id="senha" type="password" name="password" placeholder="Senha">
-     </div>
-     <div>
-       <button id="btn-login">Entrar</button>
-     </div>
-   </form>
+      <div>
+        <input id="email" type="email" name="email" placeholder="Email">
+      </div>
+      <div>
+        <input id="senha" type="password" name="password" placeholder="Senha">
+      </div>
+      <div>
+        <button id="btn-login">Entrar</button>
+      </div>
+    </form>
   </header>
   <main>
     <form id="evaluation-form">
@@ -46,9 +46,9 @@
       <div class="check-container">
         <div class="radio-family">
           <label id="label-family">Qual sua família?</label>
-          <label><input type="radio" name="family" value="Frontend">Frontend</label>
-          <label><input type="radio" name="family" value="Backend">Backend</label>
-          <label> <input type="radio" name="family" value="FullStack">FullStack</label>
+          <label><input type="radio" name="family" class="family" value="Frontend">Frontend</label>
+          <label><input type="radio" name="family" class="family" value="Backend">Backend</label>
+          <label> <input type="radio" name="family" class="family" value="FullStack">FullStack</label>
         </div>
         <div class="checkbox-container">
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
@@ -81,11 +81,11 @@
         </div>
       </div>
       <label class="textarea">Deixe seu comentário:
-        <textarea  id="textarea" rows="5" maxlength="500"></textarea>
+        <textarea id="textarea" rows="5" maxlength="500"></textarea>
         <span id="counter"></span>
       </label>
       <label id="label-infos">Você concorda com o uso das informações acima?
-        <input type="checkbox" id ="agreement">
+        <input type="checkbox" id="agreement">
       </label>
       <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
